@@ -1,1 +1,109 @@
-hello world
+Tech Innovations Inc.
+Type: Technology Development Firm
+Resources: Internship programs, tech workshops
+Contact: Jane Doe, j.doe@techinnovations.com
+
+Green Gardens
+Type: Environmental NGO
+Resources: Volunteer projects, environmental education
+Contact: Bob Smith, b.smith@greengardens.org
+
+Health Horizon Hospital
+Type: Healthcare Institution
+Resources: Medical internships, health seminars
+Contact: Dr. Emily Stone, e.stone@healthhorizon.com
+
+Artistic Minds Studio
+Type: Art and Design Studio
+Resources: Art classes, design internships
+Contact: Mike Johnson, m.johnson@artisticminds.com
+
+BuildRight Construction Co.
+Type: Construction Company
+Resources: Apprenticeship programs, construction workshops
+Contact: Sarah Brown, s.brown@buildright.com
+
+Financial Futures Inc.
+Type: Financial Advisory Firm
+Resources: Finance internships, economic workshops
+Contact: David Lee, d.lee@financialfutures.com
+
+Bright Minds Tutoring
+Type: Educational Service
+Resources: Tutoring services, educational materials
+Contact: Linda Martinez, l.martinez@brightminds.com
+
+Innovatech Electronics
+Type: Electronics Manufacturer
+Resources: Engineering internships, tech tours
+Contact: Kevin White, k.white@innovatechelectronics.com
+
+Global Outreach NGO
+Type: Non-Governmental Organization
+Resources: Volunteer abroad programs, cultural workshops
+Contact: Maria Gonzalez, m.gonzalez@globaloutreach.org
+
+Lawyers for People
+Type: Legal Firm
+Resources: Legal internships, workshops on rights
+Contact: John Davis, j.davis@lawyersforpeople.com
+
+Cityscape Architects
+Type: Architectural Firm
+Resources: Architectural internships, design workshops
+Contact: Emily Turner, e.turner@cityscapearchitects.com
+
+Culinary Creations
+Type: Restaurant/Culinary School
+Resources: Culinary internships, cooking classes
+Contact: Chef Antonio Rivera, a.rivera@culinarycreations.com
+
+TechyTeach Tools
+Type: Educational Technology Company
+Resources: EdTech tools, teacher training workshops
+Contact: Susan Clarke, s.clarke@techyteach.com
+
+GreenTech Solutions
+Type: Renewable Energy Company
+Resources: Sustainability internships, renewable energy workshops
+Contact: Alex Kim, a.kim@greentechsolutions.com
+
+Design Dynamics
+Type: Graphic Design Firm
+Resources: Design internships, creative workshops
+Contact: Chloe Anderson, c.anderson@designdynamics.com
+
+MarketMasters
+Type: Marketing Agency
+Resources: Marketing internships, digital marketing seminars
+Contact: Daniel Hernandez, d.hernandez@marketmasters.com
+
+CivicConnect
+Type: Community Outreach Organization
+Resources: Community service projects, leadership training
+Contact: Laura Wilson, l.wilson@civicconnect.org
+
+BioBright Laboratories
+Type: Biotechnology Company
+Resources: Research internships, science workshops
+Contact: Dr. Henry Nguyen, h.nguyen@biobrightlabs.com
+
+Elite Engineers
+Type: Engineering Firm
+Resources: Engineering internships, technical seminars
+Contact: Omar Ali, o.ali@eliteengineers.com
+
+Future Educators
+Type: Teacher Training Organization
+Resources: Teaching internships, educational workshops
+Contact: Jessica Sanders, j.sanders@futureeducators.org
+
+Creative Coders
+Type: Software Development Company
+Resources: Coding internships, programming workshops
+Contact: Brian Cox, b.cox@creativecoders.com
+
+Healthy Living Foundation
+Type: Health and Wellness NGO
+Resources: Health awareness campaigns, wellness workshops
+Contact: Angela Martin, a.martin@healthylivingfoundation.org

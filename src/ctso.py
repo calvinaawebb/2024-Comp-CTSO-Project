@@ -43,6 +43,8 @@ width = root.winfo_width()
 height = root.winfo_height()
 print(width, height)
 
+# boolean as to whether or not the help menu is open.
+helped = False
 
 def define_color(color):
     return "#%02x%02x%02x" % color
@@ -79,7 +81,15 @@ class main():
         # main area setup
         self.mainArea = Text(root, wrap=WORD, background=darker_grey, foreground=light_purple,
                              tabs=('0.3i', '0.8i', RIGHT, '1.2i', CENTER, '2i', NUMERIC))
-        self.mainArea.place(x=int(width * 0.12), y=0, width=int(width * 0.88), height=int(height))
+        self.mainArea.place(x=int(width * 0.12), y=50, width=int(width * 0.88), height=int(height))
+
+        can.create_text(285, 25, text="Edit files:", fill="dark gray", font=('Helvetica 15 bold'))
+
+        # Create an instance of Tkinter frame
+        win = Tk()
+
+        # Set the geometry of Tkinter frame
+        win.geometry("750x270")
 
         # scrollbar
         vert = Scrollbar(root, orient='vertical', command=self.mainArea.yview)
@@ -115,7 +125,7 @@ class main():
         window = Menu(menubar, bg=darker_grey, fg="white", activebackground=light_purple, activeforeground=darker_grey,
                       bd=0)
         menubar.add_cascade(menu=window, label="Window")
-        window.add_command(label="File Manager")
+        window.add_command(label="Help", command=self.help())
         window.add_command(label="Search Current Directory", command=self.searchDir())
         #window.add_command(label="Time Line")
 
@@ -244,12 +254,23 @@ class main():
         print(newFile)
 
     def searchDir(self):
-        # for k in files:
-        #     with open(pathlib.Path(k)) as f:
-        #         if 'hello' in f.read():
-        #             print("LETS GOOOOOO")
-        print("PathK: ")
-        print(files[0])
+         for k in files:
+             with open(pathlib.Path(k)) as f:
+                 if 'hello' in f.read():
+                     print("LETS GOOOOOO")
+        #print("PathK: ")
+        #print(files[0])
+
+    def help(self):
+        helpm = Label(root, text="This is AUCTO, your personalized information editor. In order to open files, use the file menu to open up a directory. Once inside, AUCTO will automatically open your directory, and from there you can choose a file.")
+        helpm.pack()
+        root.after(5000, lambda: helpm.pack_forget())
+
+    def open_popup():
+        top = Toplevel(win)
+        top.geometry("750x250")
+        top.title("Child Window")
+        Label(top, text="Hello World!", font=('Mistral 18 bold')).place(x=150, y=80)
 
 
     def quit(self):

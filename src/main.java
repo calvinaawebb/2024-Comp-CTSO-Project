@@ -24,7 +24,7 @@ class Main {
         this.contactInfo = contactInfo;
      }
 
-    @Override
+    @Override   
     public String toString() {
         // This will determine how each Main is displayed in the ListView
         return String.format("%s - %s", name, organizationType);
